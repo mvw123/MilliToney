@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 05 00"
+Version="07 05 00"
 Platform="Mac OS X"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -376,10 +376,12 @@ UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/TP_1MM_TH.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/Switch_320-938_Corrected.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/BC9VPC_ShortenedSilkScreen.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/TLV431.lbr"
+UsedLibrary="/Users/guvvy/Documents/Libraries/Guvvy_Libs/KMTG1203.lbr"
+UsedLibrary="/Users/guvvy/Documents/Libraries/DangerousPrototypes/dp_devices.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="271 23 1351 809"
+Loc="606 23 1297 932"
 State=2
 Number=0
 
