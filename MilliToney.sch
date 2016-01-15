@@ -15775,16 +15775,11 @@ http://dangerousprototypes.com</description>
 <sheets>
 <sheet>
 <plain>
-<text x="119.38" y="-40.64" size="1.778" layer="91">NO CONNECT PINS IC, I.C._2, I.C._3</text>
 <text x="-190.5" y="-73.66" size="1.778" layer="91">REVERSE
 VOLTAGE
 PROTECTION</text>
 <text x="-185.42" y="-48.26" size="1.778" layer="91">ON/OFF</text>
 <text x="43.18" y="48.26" size="3.81" layer="91">WWW.GUVVY.CO.UK</text>
-<text x="261.62" y="-91.44" size="1.778" layer="91">FIT EITHER Q1 OR R21</text>
-<text x="358.14" y="-167.64" size="1.778" layer="91">BUZZER PART NEEDS CREATING FOR
- KMTG1203 AND FOOTPRINT NEEDS 
-CORRECTING</text>
 <text x="325.12" y="-144.78" size="1.778" layer="91">DETERMINE IF THE COMPARATOR CAN
  SINK ENOUGH CURRENT DETERMINE 
 IF A TRANSISTOR IS NEEDED ON THE 
@@ -15795,12 +15790,18 @@ Switch = Fully Checked,
 Diode = checked
 Fuse = checked
 Battery con = checked</text>
-<text x="-96.52" y="-147.32" size="1.778" layer="91">NEED HIGHER POWER INPUT RESISTORS FOR LARGE INPUT VOLTAGES</text>
+<text x="-88.9" y="-152.4" size="1.778" layer="91">NEED HIGHER POWER INPUT RESISTORS FOR LARGE INPUT VOLTAGES</text>
 <text x="-142.24" y="-83.82" size="1.778" layer="91">BD4827G-TR</text>
 <text x="243.84" y="-198.12" size="1.778" layer="91">SQUARE WAVE GENERATOR</text>
 <text x="78.74" y="35.56" size="1.778" layer="91">SICK OF BEIGE DP5050 FOR 50MM x 50MM BOARDS WITH 4 NPTH</text>
 <text x="86.36" y="20.32" size="1.778" layer="91">FIDUCIALS</text>
 <text x="-261.62" y="-91.44" size="1.778" layer="91">DUAL FOOTPRINT. ONLY FIT ONE BATTERY HOLDER.</text>
+<text x="-88.9" y="-144.78" size="3.81" layer="91">CHECK POST SIZE IS THE ONE DESIRED</text>
+<text x="-81.28" y="-177.8" size="1.778" layer="91">Hirschmann black safety socket spade connector, 25A
+Red 972 355-101
+Black 972 355-100
+gold plated
+farnell £1.33 each </text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="-60.96" y="-127" rot="R180">
