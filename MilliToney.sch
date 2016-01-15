@@ -1239,22 +1239,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C1005">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
@@ -2814,22 +2798,6 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
-<package name="R1005">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
@@ -4303,6 +4271,40 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-1.4" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
 <rectangle x1="1.1" y1="-1.6" x2="1.4" y2="1.6" layer="51" rot="R180"/>
 </package>
+<package name="C01005">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
+<package name="PRL1632">
+<description>&lt;b&gt;PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)&lt;/b&gt;&lt;p&gt;
+Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
+<wire x1="0.7275" y1="-1.5228" x2="-0.7277" y2="-1.5228" width="0.1524" layer="51"/>
+<wire x1="0.7275" y1="1.5228" x2="-0.7152" y2="1.5228" width="0.1524" layer="51"/>
+<smd name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<text x="-1.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.4" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-1.6" x2="-0.4" y2="1.6" layer="51"/>
+<rectangle x1="0.4" y1="-1.6" x2="0.8" y2="1.6" layer="51"/>
+</package>
+<package name="R01005">
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-EU">
@@ -4361,15 +4363,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="C1005" package="C1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5044,6 +5037,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="01005" package="C01005">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="R-EU_" prefix="R" uservalue="yes">
@@ -5080,15 +5082,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R1005" package="R1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5809,6 +5802,24 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 <device name="1812X7R" package="1812X7R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PRL1632" package="PRL1632">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="01005" package="R01005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -15703,7 +15714,7 @@ http://dangerousprototypes.com</description>
 <part name="U5" library="MCP6541_SOT23-5" deviceset="MCP6541T-I/OT" device="" value="Comparator"/>
 <part name="SG1" library="KMTG1203" deviceset="BUZZER" device="BUZZER-KMTG1203"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="VR3" library="bourns" deviceset="3386-" device="F" value="1k"/>
+<part name="VR2" library="bourns" deviceset="3386-" device="F" value="1k"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A" value="C&amp;K COMPONENTS PCM12SMTR">
 <attribute name="MF" value="C&amp;K COMPONENTS"/>
 <attribute name="MPN" value="PCM12SMTR"/>
@@ -15762,10 +15773,10 @@ http://dangerousprototypes.com</description>
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="3.3V" value="2.7V"/>
 <part name="TP2" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;"/>
 <part name="TP4" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;"/>
-<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$3" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$4" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="FID1" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="FID2" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="FID3" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="FID4" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="SP4" library="buzzer" deviceset="KSS1201" device=""/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="FOB" value="CR2032"/>
 <part name="PCB1" library="dp_devices" deviceset="PCB_DP_SQUARE" device="-5X5"/>
@@ -15790,7 +15801,7 @@ Switch = Fully Checked,
 Diode = checked
 Fuse = checked
 Battery con = checked</text>
-<text x="-88.9" y="-152.4" size="1.778" layer="91">NEED HIGHER POWER INPUT RESISTORS FOR LARGE INPUT VOLTAGES</text>
+<text x="-88.9" y="-152.4" size="1.778" layer="91">MAY NEED HIGHER POWER INPUT RESISTORS FOR LARGE INPUT VOLTAGES</text>
 <text x="-142.24" y="-83.82" size="1.778" layer="91">BD4827G-TR</text>
 <text x="243.84" y="-198.12" size="1.778" layer="91">SQUARE WAVE GENERATOR</text>
 <text x="78.74" y="35.56" size="1.778" layer="91">SICK OF BEIGE DP5050 FOR 50MM x 50MM BOARDS WITH 4 NPTH</text>
@@ -15857,7 +15868,7 @@ farnell £1.33 each </text>
 <instance part="U5" gate="A" x="264.16" y="-142.24"/>
 <instance part="SG1" gate="G$1" x="325.12" y="-165.1" rot="R270"/>
 <instance part="P+2" gate="VCC" x="48.26" y="-96.52"/>
-<instance part="VR3" gate="G$1" x="314.96" y="-139.7" rot="R180"/>
+<instance part="VR2" gate="G$1" x="314.96" y="-139.7" rot="R180"/>
 <instance part="S1" gate="1" x="-182.88" y="-55.88">
 <attribute name="MF" x="-182.88" y="-55.88" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-182.88" y="-55.88" size="1.778" layer="96" display="off"/>
@@ -15916,10 +15927,10 @@ farnell £1.33 each </text>
 <instance part="D6" gate="G$1" x="81.28" y="-53.34" rot="R90"/>
 <instance part="TP2" gate="G$1" x="-119.38" y="-129.54" rot="R180"/>
 <instance part="TP4" gate="G$1" x="-93.98" y="-129.54"/>
-<instance part="U$1" gate="G$1" x="55.88" y="20.32"/>
-<instance part="U$2" gate="G$1" x="63.5" y="20.32"/>
-<instance part="U$3" gate="G$1" x="71.12" y="20.32"/>
-<instance part="U$4" gate="G$1" x="78.74" y="20.32"/>
+<instance part="FID1" gate="G$1" x="55.88" y="20.32"/>
+<instance part="FID2" gate="G$1" x="63.5" y="20.32"/>
+<instance part="FID3" gate="G$1" x="71.12" y="20.32"/>
+<instance part="FID4" gate="G$1" x="78.74" y="20.32"/>
 <instance part="SP4" gate="1" x="340.36" y="-167.64" rot="R270"/>
 <instance part="BAT1" gate="G$1" x="-243.84" y="-68.58" rot="R270"/>
 <instance part="PCB1" gate="PCB" x="68.58" y="35.56"/>
@@ -16395,7 +16406,7 @@ farnell £1.33 each </text>
 <segment>
 <wire x1="314.96" y1="-144.78" x2="314.96" y2="-152.4" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="VR3" gate="G$1" pin="3"/>
+<pinref part="VR2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -16407,7 +16418,7 @@ farnell £1.33 each </text>
 </net>
 <net name="VOUT_COMP" class="0">
 <segment>
-<pinref part="VR3" gate="G$1" pin="1"/>
+<pinref part="VR2" gate="G$1" pin="1"/>
 <wire x1="314.96" y1="-134.62" x2="314.96" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="-132.08" x2="307.34" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="-139.7" x2="307.34" y2="-139.7" width="0.1524" layer="91"/>
@@ -16419,7 +16430,7 @@ farnell £1.33 each </text>
 <junction x="287.02" y="-139.7"/>
 <pinref part="U5" gate="A" pin="OUT"/>
 <junction x="284.48" y="-139.7"/>
-<pinref part="VR3" gate="G$1" pin="2"/>
+<pinref part="VR2" gate="G$1" pin="2"/>
 <wire x1="284.48" y1="-139.7" x2="281.94" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="-139.7" x2="284.48" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="-132.08" x2="307.34" y2="-139.7" width="0.1524" layer="91"/>
