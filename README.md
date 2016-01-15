@@ -9,8 +9,8 @@ The design is 5cm x 5cm to allow low cost manufacture.
 CAD A - [Work In progress]
 =====================
 
-Schematic begun
-
+Schematic Done. Part values to be decided.
+CAD A ordered from Elecrow. $15.00 for 10 off. 2016Jan16
 
 MVW
 www.guvvy.co.uk
