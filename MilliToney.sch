@@ -15772,7 +15772,7 @@ http://dangerousprototypes.com</description>
 <attribute name="MPN" value="BC807-16LT1G"/>
 <attribute name="OC_FARNELL" value="2317586"/>
 </part>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0402" value="1k 5%">
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0402" value="1k 1%">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -15797,7 +15797,7 @@ http://dangerousprototypes.com</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0402" value="1k 5%">
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0402" value="1k 1%">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -15819,7 +15819,7 @@ http://dangerousprototypes.com</description>
 <attribute name="OC_FARNELL" value="2456110"/>
 </part>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="U5" library="MCP6541_SOT23-5" deviceset="MCP6541T-I/OT" device="" value="Comparator">
+<part name="U5" library="MCP6541_SOT23-5" deviceset="MCP6541T-I/OT" device="" value="MCP6541T-I/OT">
 <attribute name="MF" value="MICROCHIP"/>
 </part>
 <part name="SG1" library="KMTG1203" deviceset="BUZZER" device="BUZZER-KMTG1203">
@@ -16016,7 +16016,7 @@ http://dangerousprototypes.com</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="SP4" library="buzzer" deviceset="KSS1201" device="" value="SPKR_PTH_6.5MM_PITCH"/>
-<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="FOB" value="CR2032">
+<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="FOB" value="DNF   CR2032">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -16113,6 +16113,10 @@ Change Rin, Rf and the Vref load resistor to 0.1% 0603 parts if cheaper or avail
 <text x="48.26" y="-12.7" size="2.54" layer="91">CHECK POWER RATING</text>
 <text x="325.12" y="-124.46" size="1.778" layer="91">Determine which part fits. VISHAY M63M102KB30T607 1k potentiometer with knob
 Or BOURNS 3386F-1-102TLF</text>
+<text x="-121.92" y="-43.18" size="1.778" layer="91">NO LED DIRECTION INDICATOR ON PCB. NEEDS CORRECTING</text>
+<text x="-121.92" y="-27.94" size="1.778" layer="91">THICKEN VCC LINE ON LAYOUT</text>
+<text x="35.56" y="-162.56" size="1.778" layer="91">Change 499k to 0.1% , may need an 0603 or 0805 part. 
+Change 0.1% 1k to a larger package so that it is not confused with the 1% 1k parts and is cheaper. </text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="-60.96" y="-127" rot="R180">
@@ -16273,6 +16277,7 @@ Or BOURNS 3386F-1-102TLF</text>
 <instance part="P+7" gate="VCC" x="243.84" y="-127"/>
 <instance part="U5" gate="A" x="264.16" y="-142.24">
 <attribute name="MF" x="264.16" y="-142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="256.54" y="-162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SG1" gate="G$1" x="325.12" y="-165.1" rot="R270">
 <attribute name="OC_FARNELL" x="325.12" y="-165.1" size="1.778" layer="96" display="off"/>
