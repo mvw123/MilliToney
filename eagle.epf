@@ -378,10 +378,12 @@ UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/BC9VPC_ShortenedSilkScreen
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/TLV431.lbr"
 UsedLibrary="/Users/guvvy/Documents/Libraries/Guvvy_Libs/KMTG1203.lbr"
 UsedLibrary="/Users/guvvy/Documents/Libraries/DangerousPrototypes/dp_devices.lbr"
+UsedLibrary="/Users/guvvy/Documents/Libraries/Guvvy_Libs/Adafruit_RFM95.lbr"
+UsedLibrary="/Users/guvvy/Documents/Libraries/Microchip-24AA0@E/Microchip-24AA0.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="67 24 1325 933"
+Loc="306 23 1386 841"
 State=2
 Number=0
 

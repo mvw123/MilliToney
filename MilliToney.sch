@@ -16117,6 +16117,8 @@ Or BOURNS 3386F-1-102TLF</text>
 <text x="-121.92" y="-27.94" size="1.778" layer="91">THICKEN VCC LINE ON LAYOUT</text>
 <text x="35.56" y="-162.56" size="1.778" layer="91">Change 499k to 0.1% , may need an 0603 or 0805 part. 
 Change 0.1% 1k to a larger package so that it is not confused with the 1% 1k parts and is cheaper. </text>
+<text x="165.1" y="-71.12" size="1.778" layer="91">MCP6001 Isc = +-23mA@5.5v, +-6mA@1.8V</text>
+<text x="256.54" y="-104.14" size="1.778" layer="91">MCP6541 Isc = +-30mA@5.5v, -2.5mA/+1.5mA@1.6V, ABS max +-30mA</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="-60.96" y="-127" rot="R180">
