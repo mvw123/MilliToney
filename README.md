@@ -14,6 +14,8 @@ Part values to be decided.
 CAD A ordered from Elecrow. $15.00 for 10 off. 2016Jan16
 PCBs arrived. 
 Circuit not functioning fully. Needs the V-F circuit correcting. Also the milliohmeter is not as accurate as expected.
+See issues list for details.
 
 MVW
+
 www.guvvy.co.uk
