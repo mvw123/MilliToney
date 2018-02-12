@@ -1,5 +1,5 @@
-MilliToney Board [Work in Progress]
-===================================
+MilliToney Board 
+================
 
 Milliohmeter and tone generator
 Used for measuring resistancefrom approx 1m Ohm to 1 ohm and for finding short circuits by generating a tone. 
