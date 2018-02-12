@@ -1,5 +1,5 @@
-MilliToney Board
-=========================
+MilliToney Board [Work in Progress]
+===================================
 
 Milliohmeter and tone generator
 Used for measuring resistancefrom approx 1m Ohm to 1 ohm and for finding short circuits by generating a tone. 
@@ -13,6 +13,7 @@ Schematic Done.
 Part values to be decided.
 CAD A ordered from Elecrow. $15.00 for 10 off. 2016Jan16
 PCBs arrived. 
+Circuit not functioning fully. Needs the V-F circuit correcting. Also the milliohmeter is not as accurate as expected.
 
 MVW
 www.guvvy.co.uk
